@@ -56,16 +56,24 @@ figure,
 figcaption,
 section,
 article,
-aside {
+aside,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
 /* Style rule for images */
-img {
+img,
+video {
   max-width: 100%;
   display: block;
+}
+
+video {
+  margin: 0 auto 4%;
+  width: 100%;
 }
 
 /* Style rules for header content */
@@ -296,6 +304,7 @@ article ul {
 
 .map {
   border: 5px solid #FFFDFA;
+  max-width: 90%;
 }
 
 /* Style rules for footer content */
